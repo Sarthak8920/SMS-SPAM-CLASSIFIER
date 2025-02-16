@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
-import sklearn
+import streamlit as st
+
 
 def load_model():
     with open("vectorizer.pkl", "rb") as vec_file, open("model.pkl", "rb") as model_file:
